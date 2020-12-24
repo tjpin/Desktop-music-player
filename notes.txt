@@ -1,0 +1,21 @@
+CREATE ICON RESOURCE FILE
+-----------------------------------
+
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons/next.png</file>
+        <file>icons/pause.png</file>
+        <file>icons/play.png</file>
+        <file>icons/prev.png</file>
+        <file>icons/rep.png</file>
+        <file>icons/rep-1.png</file>
+        <file>icons/shuffle.png</file>
+        <file>icons/stop.png</file>
+    </qresource>
+</RCC>
+
+CONVERT TO RC FILE
+-------------------
+pyrcc5 icons.qrc -o icons_rc.py ==> converts icon file to rc file
+
